@@ -1,0 +1,47 @@
+tokenizer mistral: mistralai/Mistral-7B-Instruct-v0.3
+== run mistral (mistralai/Mistral-7B-Instruct-v0.3) on NVIDIA L40S: layers 32, heads 32/8, head_dim 128, qk_norm False, sliding None
+integrity 1: max relative logit difference 0.0076; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 21.6)
+  mistral: 10/14 items, 60s
+  mistral: 14/14 items, 77s
+== mistral done -> out/results_mistral_smoke.jsonl
+tokenizer mistral: mistralai/Mistral-7B-Instruct-v0.3
+== run mistral (mistralai/Mistral-7B-Instruct-v0.3) on NVIDIA L40S: layers 32, heads 32/8, head_dim 128, qk_norm False, sliding None
+integrity 1: max relative logit difference 0.0076; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 21.6)
+  mistral: 10/350 items, 57s
+  mistral: 20/350 items, 102s
+  mistral: 30/350 items, 146s
+  mistral: 40/350 items, 191s
+  mistral: 50/350 items, 251s
+  mistral: 60/350 items, 300s
+  mistral: 70/350 items, 346s
+  mistral: 80/350 items, 389s
+  mistral: 90/350 items, 433s
+  mistral: 100/350 items, 484s
+  mistral: 110/350 items, 529s
+  mistral: 120/350 items, 580s
+  mistral: 130/350 items, 630s
+  mistral: 140/350 items, 676s
+  mistral: 150/350 items, 718s
+  mistral: 160/350 items, 767s
+  mistral: 170/350 items, 811s
+  mistral: 180/350 items, 851s
+  mistral: 190/350 items, 890s
+  mistral: 200/350 items, 939s
+  mistral: 210/350 items, 983s
+  mistral: 220/350 items, 1028s
+  mistral: 230/350 items, 1075s
+  mistral: 240/350 items, 1126s
+  mistral: 250/350 items, 1158s
+  mistral: 260/350 items, 1209s
+  mistral: 270/350 items, 1259s
+  mistral: 280/350 items, 1298s
+  mistral: 290/350 items, 1338s
+  mistral: 300/350 items, 1372s
+  mistral: 310/350 items, 1420s
+  mistral: 320/350 items, 1451s
+  mistral: 330/350 items, 1490s
+  mistral: 340/350 items, 1516s
+  mistral: 350/350 items, 1546s
+== mistral done -> out/results_mistral.jsonl

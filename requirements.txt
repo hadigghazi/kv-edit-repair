@@ -10,3 +10,6 @@ pytest>=8.0
 # Two examples of what teams have added past this line in prior terms:
 #   google-genai>=2.3.0   # Gemini access, this course's own lecture default
 #   mem0ai>=0.1           # a Memory-topic team building on Mem0
+
+# This project: the GPU run of extension/kvx.py needs extension/requirements-gpu.txt (transformers, accelerate,
+# datasets, openai) on top of PyTorch. The tests and `kvx.py selftest` need only the standard library and pytest.

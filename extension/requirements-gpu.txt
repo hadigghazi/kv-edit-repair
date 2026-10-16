@@ -1,0 +1,6 @@
+# GPU run of extension/kvx.py (build / run / analyze). Torch comes from the RunPod PyTorch image or
+# https://pytorch.org; the selftest and the analysis need only the standard library.
+transformers>=4.56
+accelerate
+datasets
+openai

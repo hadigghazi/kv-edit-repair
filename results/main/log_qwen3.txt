@@ -1,0 +1,47 @@
+tokenizer qwen3: Qwen/Qwen3-8B
+== run qwen3 (Qwen/Qwen3-8B) on NVIDIA L40S: layers 36, heads 32/8, head_dim 128, qk_norm True, sliding None
+integrity 1: max relative logit difference 0.0043; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 227.0)
+  qwen3: 10/14 items, 58s
+  qwen3: 14/14 items, 83s
+== qwen3 done -> out/results_qwen3_smoke.jsonl
+tokenizer qwen3: Qwen/Qwen3-8B
+== run qwen3 (Qwen/Qwen3-8B) on NVIDIA L40S: layers 36, heads 32/8, head_dim 128, qk_norm True, sliding None
+integrity 1: max relative logit difference 0.0043; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 227.0)
+  qwen3: 10/350 items, 56s
+  qwen3: 20/350 items, 111s
+  qwen3: 30/350 items, 171s
+  qwen3: 40/350 items, 225s
+  qwen3: 50/350 items, 283s
+  qwen3: 60/350 items, 334s
+  qwen3: 70/350 items, 389s
+  qwen3: 80/350 items, 440s
+  qwen3: 90/350 items, 487s
+  qwen3: 100/350 items, 545s
+  qwen3: 110/350 items, 601s
+  qwen3: 120/350 items, 659s
+  qwen3: 130/350 items, 714s
+  qwen3: 140/350 items, 763s
+  qwen3: 150/350 items, 822s
+  qwen3: 160/350 items, 878s
+  qwen3: 170/350 items, 930s
+  qwen3: 180/350 items, 982s
+  qwen3: 190/350 items, 1026s
+  qwen3: 200/350 items, 1088s
+  qwen3: 210/350 items, 1145s
+  qwen3: 220/350 items, 1207s
+  qwen3: 230/350 items, 1268s
+  qwen3: 240/350 items, 1321s
+  qwen3: 250/350 items, 1375s
+  qwen3: 260/350 items, 1432s
+  qwen3: 270/350 items, 1486s
+  qwen3: 280/350 items, 1544s
+  qwen3: 290/350 items, 1601s
+  qwen3: 300/350 items, 1662s
+  qwen3: 310/350 items, 1714s
+  qwen3: 320/350 items, 1770s
+  qwen3: 330/350 items, 1821s
+  qwen3: 340/350 items, 1888s
+  qwen3: 350/350 items, 1926s
+== qwen3 done -> out/results_qwen3.jsonl

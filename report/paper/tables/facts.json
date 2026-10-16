@@ -1,0 +1,104 @@
+{
+ "qwen3": {
+  "kept": 322,
+  "n": 350,
+  "dist": {
+   "derived_d0": 1.0,
+   "derived_d250": 332.0,
+   "derived_d1500": 1556.5,
+   "hop3": 323.0,
+   "fanout3": 326.0,
+   "noisy_d250": 344.0
+  },
+  "doc": {
+   "derived_d0": 1480.0,
+   "derived_d250": 1879.0,
+   "derived_d1500": 3170.0,
+   "hop3": 2426.0,
+   "fanout3": 3031.0,
+   "noisy_d250": 1983.0
+  },
+  "direct": {
+   "edit_only": 0.9601871949100533,
+   "gp_index": 0.9601871949100533,
+   "el32": 0.998613041254636
+  },
+  "erratum_acc": {
+   "derived_d0": 50.0,
+   "derived_d250": 54.0,
+   "derived_d1500": 37.5,
+   "hop3": 30.555555555555557,
+   "fanout3": 28.57142857142857,
+   "noisy_d250": 47.82608695652174
+  },
+  "el_at_cost": null
+ },
+ "llama": {
+  "kept": 263,
+  "n": 350,
+  "dist": {
+   "derived_d0": 1,
+   "derived_d250": 317,
+   "derived_d1500": 1500.0,
+   "hop3": 320.0,
+   "fanout3": 322,
+   "noisy_d250": 319.5
+  },
+  "doc": {
+   "derived_d0": 1438,
+   "derived_d250": 1804,
+   "derived_d1500": 3023.0,
+   "hop3": 2329.5,
+   "fanout3": 2913,
+   "noisy_d250": 1902.5
+  },
+  "direct": {
+   "edit_only": 0.931659614530162,
+   "gp_index": 0.931659614530162,
+   "el32": 0.9994417791863667
+  },
+  "erratum_acc": {
+   "derived_d0": 91.83673469387756,
+   "derived_d250": 93.54838709677419,
+   "derived_d1500": 100.0,
+   "hop3": 84.375,
+   "fanout3": 67.74193548387096,
+   "noisy_d250": 100.0
+  },
+  "el_at_cost": null
+ },
+ "mistral": {
+  "kept": 260,
+  "n": 350,
+  "dist": {
+   "derived_d0": 1,
+   "derived_d250": 361.5,
+   "derived_d1500": 1740,
+   "hop3": 356.0,
+   "fanout3": 394.0,
+   "noisy_d250": 393.5
+  },
+  "doc": {
+   "derived_d0": 1626,
+   "derived_d250": 2079.0,
+   "derived_d1500": 3536,
+   "hop3": 2660.0,
+   "fanout3": 3447.0,
+   "noisy_d250": 2181.5
+  },
+  "direct": {
+   "edit_only": 0.9149752535038812,
+   "gp_index": 0.9149752535038812,
+   "el32": 1.0016222685329952
+  },
+  "erratum_acc": {
+   "derived_d0": 42.857142857142854,
+   "derived_d250": 26.31578947368421,
+   "derived_d1500": 20.51282051282051,
+   "hop3": 22.727272727272727,
+   "fanout3": 11.11111111111111,
+   "noisy_d250": 34.090909090909086
+  },
+  "el_at_cost": null
+ }
+}
