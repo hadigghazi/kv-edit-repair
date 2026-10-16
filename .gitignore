@@ -27,3 +27,14 @@ data/*
 .claude/
 CLAUDE.md
 CLAUDE.local.md
+
+# LaTeX build files
+report/paper/*.aux
+report/paper/*.bbl
+report/paper/*.blg
+report/paper/*.log
+report/paper/*.out
+report/paper/*.fdb_latexmk
+report/paper/*.fls
+report/paper/main.pdf
+report/paper/build/

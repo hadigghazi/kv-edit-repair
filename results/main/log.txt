@@ -1,0 +1,27 @@
+tokenizer qwen3: Qwen/Qwen3-8B
+tokenizer llama: meta-llama/Llama-3.1-8B-Instruct not accessible (OSError); trying next
+tokenizer llama: unsloth/Llama-3.1-8B-Instruct
+tokenizer mistral: mistralai/Mistral-7B-Instruct-v0.3
+filler: 1241 wikitext-103 validation paragraphs
+LLM graphs: gpt-4o-mini
+  direct: 50 items (0 rejected as not length-preserving in some tokenizer)
+  derived_d0: 50 items (58 rejected as not length-preserving in some tokenizer)
+  derived_d250: 50 items (61 rejected as not length-preserving in some tokenizer)
+  derived_d1500: 50 items (53 rejected as not length-preserving in some tokenizer)
+  hop3: 50 items (89 rejected as not length-preserving in some tokenizer)
+  fanout3: 50 items (75 rejected as not length-preserving in some tokenizer)
+  noisy_d250: 50 items (63 rejected as not length-preserving in some tokenizer)
+  LLM graphs: 50/350
+  LLM graphs: 100/350
+  LLM graphs: 150/350
+  LLM graphs: 200/350
+  LLM graphs: 250/350
+  LLM graphs: 300/350
+  LLM graphs: 350/350
+built 350 items -> out/items.jsonl; LLM graph cost $0.18
+  index graph derived_d0: recall 1.00, extra sentences 0.0
+  index graph derived_d250: recall 1.00, extra sentences 0.0
+  index graph derived_d1500: recall 1.00, extra sentences 0.0
+  index graph hop3: recall 1.00, extra sentences 0.0
+  index graph fanout3: recall 1.00, extra sentences 0.0
+  index graph noisy_d250: recall 1.00, extra sentences 0.0

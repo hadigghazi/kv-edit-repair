@@ -1,0 +1,49 @@
+tokenizer llama: meta-llama/Llama-3.1-8B-Instruct not accessible (OSError); trying next
+tokenizer llama: unsloth/Llama-3.1-8B-Instruct
+== run llama (unsloth/Llama-3.1-8B-Instruct) on NVIDIA L40S: layers 32, heads 32/8, head_dim 128, qk_norm False, sliding None
+integrity 1: max relative logit difference 0.0061; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 32.8)
+  llama: 10/14 items, 43s
+  llama: 14/14 items, 66s
+== llama done -> out/results_llama_smoke.jsonl
+tokenizer llama: meta-llama/Llama-3.1-8B-Instruct not accessible (OSError); trying next
+tokenizer llama: unsloth/Llama-3.1-8B-Instruct
+== run llama (unsloth/Llama-3.1-8B-Instruct) on NVIDIA L40S: layers 32, heads 32/8, head_dim 128, qk_norm False, sliding None
+integrity 1: max relative logit difference 0.0061; top-5 overlap 5/5; argmax equal True
+integrity 2: full recompute vs fresh prefill, max key difference 0.0000 (key scale 32.8)
+  llama: 10/350 items, 45s
+  llama: 20/350 items, 91s
+  llama: 30/350 items, 135s
+  llama: 40/350 items, 173s
+  llama: 50/350 items, 220s
+  llama: 60/350 items, 258s
+  llama: 70/350 items, 306s
+  llama: 80/350 items, 347s
+  llama: 90/350 items, 379s
+  llama: 100/350 items, 422s
+  llama: 110/350 items, 462s
+  llama: 120/350 items, 511s
+  llama: 130/350 items, 557s
+  llama: 140/350 items, 597s
+  llama: 150/350 items, 643s
+  llama: 160/350 items, 689s
+  llama: 170/350 items, 733s
+  llama: 180/350 items, 766s
+  llama: 190/350 items, 804s
+  llama: 200/350 items, 855s
+  llama: 210/350 items, 898s
+  llama: 220/350 items, 940s
+  llama: 230/350 items, 980s
+  llama: 240/350 items, 1029s
+  llama: 250/350 items, 1073s
+  llama: 260/350 items, 1115s
+  llama: 270/350 items, 1154s
+  llama: 280/350 items, 1202s
+  llama: 290/350 items, 1230s
+  llama: 300/350 items, 1275s
+  llama: 310/350 items, 1313s
+  llama: 320/350 items, 1360s
+  llama: 330/350 items, 1388s
+  llama: 340/350 items, 1439s
+  llama: 350/350 items, 1468s
+== llama done -> out/results_llama.jsonl
