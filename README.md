@@ -42,8 +42,3 @@ pip install -r requirements.txt          # pytest, python-dotenv
 pytest                                    # CPU only: structure, builder, spans, word index
 python extension/kvx.py selftest          # the same checks, verbose
 ```
-
-## Credit
-
-The path-window idea, the first two proofs of concept, the swapped-row test and the indirect ("paraphrased")
-documents are Nour Shreif's. The GPU study generalises her repair operator to three model families.
