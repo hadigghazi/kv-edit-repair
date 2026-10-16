@@ -43,10 +43,6 @@ pytest                                    # CPU only: structure, builder, spans,
 python extension/kvx.py selftest          # the same checks, verbose
 ```
 
-The GPU runs (3× L40S, about two and a half hours of pod time over three runs) are described in
-`extension/RUN-*.md`. The whole study cost
-about US$7.60 of GPU time and US$1.73 of API calls.
-
 ## Credit
 
 The path-window idea, the first two proofs of concept, the swapped-row test and the indirect ("paraphrased")
