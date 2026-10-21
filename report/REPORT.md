@@ -5,7 +5,8 @@
 **Baseline paper:** Mingyang Mao, Wyatt Mackey, Xiaomin Lin. *Contiguity, Not Importance: Budgeted Repair of Stale KV
 Caches After Document Edits.* arXiv:2609.17983, 2026.
 
-The full paper draft (6 pages, IEEE format) is [`paper.pdf`](paper.pdf), with its source in `paper/`. Its tables
+The paper (7 pages, IEEE format) is [`paper.pdf`](paper.pdf). `paper/` holds the LaTeX source of an earlier draft (the final
+version was edited in Overleaf); its tables
 are generated from `../results/` by `paper/make_tables.py`. This report follows the course template and
 summarises it.
 

@@ -31,8 +31,8 @@ show that the dependency set must include the text the edit made irrelevant.
 | [`extension/`](extension/README.md) | `kvx.py`, the whole study in one script (benchmark builder, repair runtime with integrity checks, 40 policies, analysis), plus the run guides |
 | [`results/`](results/README.md) | Every result of the three GPU runs (main, follow-up controls, paraphrased links): tables and per-item records |
 | [`data/`](data/README.md) | The exact benchmark items we ran (generated; background text from WikiText-103) |
-| [`report/`](report/REPORT.md) | The report (`REPORT.md`), the 6-page IEEE paper draft (`paper.pdf`) and its LaTeX source, whose tables are generated from `results/` |
-| `slides/` | The defense deck (to come) |
+| [`report/`](report/REPORT.md) | The report (`REPORT.md`), the 7-page IEEE paper ([`paper.pdf`](report/paper.pdf)) and the LaTeX source of an earlier draft, whose tables are generated from `results/` (the final version was edited in Overleaf) |
+| [`slides/`](slides/slides.pdf) | The defense deck (`slides.pdf`): title plus three slides, one per team member |
 | `tests/` | The template's smoke test, plus CPU tests of the benchmark builder and the word index |
 
 ## Quick start
